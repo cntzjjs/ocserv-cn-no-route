@@ -20,9 +20,7 @@
 
 源码：[http://git.infradead.org/users/dwmw2/openconnect.git](http://git.infradead.org/users/dwmw2/openconnect.git)
 
-## Cisco AnyConnect VPN Client
-
-下载：[https://cnlic.com/share/client.html](https://cnlic.com/share/client.html)
+## [Cisco AnyConnect VPN Client](https://cnlic.com/share/client.html)
 
 ## 注意事項
 
