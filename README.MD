@@ -49,3 +49,29 @@ echo 'deb http://ftp.debian.org/debian/ unstable main contrib non-free' >> /etc/
 apt-get update
 apt-get install ocserv
 ```
+## 推广
+
+[搬瓦工](https://bandwagonhost.com/aff.php?aff=1366)VPS推广链接
+
+| 链接                                              | 套餐                   | 价格($年付)            | 配置                                           |
+|---------------------------------------------------|------------------------|------------------------|------------------------------------------------|
+| https://bandwagonhost.com/aff.php?aff=1366&pid=12 |10G - PROMO|19.99|256M内存、500GB流量/月、10GB SSD硬盘|
+| https://bandwagonhost.com/aff.php?aff=1366&pid=28 |SPECIAL 20G PROMO V3 - PHOENIX AZ|18.99|1024M内存、2000GB流量/月、20GB SSD硬盘|
+| https://bandwagonhost.com/aff.php?aff=1366&pid=34 |SPECIAL 10G PROMO V3 - LOS ANGELES - CHINA DIRECT ROUTE|19.99|512M内存、1000GB流量/月、10GB SSD硬盘|
+| https://bandwagonhost.com/aff.php?aff=1366&pid=36 |SPECIAL 10G PROMO V3 - FREMONT CA|19.99|512M内存、1000GB流量/月、10GB SSD硬盘|
+
+官网被DNS污染，请在hosts中添加以下两行
+
+```
+104.20.6.63	bandwagonhost.com
+104.20.7.63	bandwagonhost.com
+```
+
+[VULTR](https://www.vultr.com/?ref=6923829)VPS推广链接
+
+| 链接                                              | 价格($月付)            | 配置                                           |
+|---------------------------------------------------|------------------------|------------------------------------------------|
+| https://www.vultr.com/?ref=6923829 |2.50|1CPU、512MB内存、500GB流量/月、20GB SSD硬盘|
+| https://www.vultr.com/?ref=6923829 |5.00|1CPU、1GB内存、1000GB流量/月、25GB SSD硬盘|
+| https://www.vultr.com/?ref=6923829 |10.00|1CPU、2GB内存、2000GB流量/月、40GB SSD硬盘|
+| https://www.vultr.com/?ref=6923829 |20.00|2CPU、4GB内存、3000GB流量/月、60GB SSD硬盘|
