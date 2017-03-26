@@ -59,6 +59,7 @@ apt-get install ocserv
 | https://bandwagonhost.com/aff.php?aff=1366&pid=28 |SPECIAL 20G PROMO V3 - PHOENIX AZ|18.99|1024M内存、2000GB流量/月、20GB SSD硬盘|
 | https://bandwagonhost.com/aff.php?aff=1366&pid=34 |SPECIAL 10G PROMO V3 - LOS ANGELES - CHINA DIRECT ROUTE|19.99|512M内存、1000GB流量/月、10GB SSD硬盘|
 | https://bandwagonhost.com/aff.php?aff=1366&pid=36 |SPECIAL 10G PROMO V3 - FREMONT CA|19.99|512M内存、1000GB流量/月、10GB SSD硬盘|
+| https://bandwagonhost.com/aff.php?aff=1366&pid=40 |Basic VPS - Self-managed - BETA 10G KVM V1|28.80|512M内存、500GB流量/月、10GB SSD硬盘|
 
 官网被DNS污染，请在hosts中添加以下两行
 

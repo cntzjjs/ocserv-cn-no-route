@@ -14,17 +14,13 @@ cat delegated-afrinic-extended-latest delegated-apnic-extended-latest delegated-
 cat delegated-all-latest | grep ipv4 | grep CN | awk -F\| '{ printf("%s/%d\n", $4, 32-log($5)/log(2)) }' >chnroute.txt
 ```
 
-2、合并chnroute.txt(338100992 IPs)，生成chnroute_merged.txt(338100992 IPs)
+2、合并chnroute.txt(338188032 IPs)，生成chnroute_merged.txt(338188032 IPs)
 
 3、将所有/12及以上改成/11，并合并，生成11_143.txt(713031680 IPs)
 
 4、生成不含保留IP的cn-no-route1.txt(712965888 IPs)
 
-剔除11_143.txt中保留IP：192.168.0.0/16、203.0.113.0/24
-
-5、添加保留IP并合并，生成cn-no-route2.txt(1305674752 IPs)
-
-192.168.0.0/24需单列，否则Windows客户端192.168.x.x整段无法接收。
+5、生成含保留IP的cn-no-route2.txt(1305674752 IPs)，192.168.0.0/24需单列，否则Windows客户端192.168.x.x整段无法接收。
 
 ## 注意事項
 
@@ -70,30 +66,4 @@ You can specify either split-include or split-exclude, but you cannot specify bo
 224.0.0.0/4
 240.0.0.0/4
 255.255.255.255/32
-```
-
-##原样保留部分
-```
-52.80.0.0/14
-54.222.0.0/15
-91.234.36.0/24
-152.104.128.0/17
-159.226.0.0/16
-161.207.0.0/16
-162.105.0.0/16
-166.111.0.0/16
-168.160.0.0/16
-170.179.0.0/16
-47.92.0.0/14
-47.96.0.0/11
-104.167.16.0/20
-104.207.32.0/19
-137.59.59.0/24
-137.59.88.0/22
-40.72.0.0/15
-40.125.128.0/17
-40.126.64.0/18
-167.139.0.0/16
-167.189.0.0/16
-167.220.244.0/22
 ```
